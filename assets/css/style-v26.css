@@ -233,6 +233,19 @@ footer h4{margin-top:0;color:#f1d49d}
 body{line-height:1.72}
 .lead{font-size:1.02rem;max-width:720px}
 .section-title{font-size:clamp(2rem,4.6vw,4rem);line-height:1.05}
+.section-title{
+  color:var(--green);
+}
+
+.band .section-title,
+.page-hero .section-title,
+section[style*="background:#173a2c"] .section-title{
+  color:#fff;
+  -webkit-text-stroke:1px #c69b52;
+  text-shadow:
+    0 0 1px #c69b52,
+    0 2px 8px rgba(0,0,0,.18);
+}
 .site-top{
   background:
     radial-gradient(circle at 86% 10%,rgba(196,154,82,.14),transparent 26%),
