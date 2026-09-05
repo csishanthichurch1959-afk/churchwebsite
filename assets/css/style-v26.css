@@ -2115,3 +2115,37 @@ nav{min-height:64px;height:64px}
 }
 /* ===== end V25 GitHub-only announcements ===== */
 
+
+/* ===== Dark green section-title contrast fix =====
+   Keep normal section titles dark green on light backgrounds.
+   On dark green bands, use white type with a restrained gold outline.
+*/
+.band .section-title,
+.band-logo .section-title{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  -webkit-text-stroke:1px var(--gold);
+  paint-order:stroke fill;
+  text-shadow:
+    0 1px 0 rgba(198,155,82,.85),
+    0 3px 12px rgba(0,0,0,.20);
+}
+
+/* Ensure surrounding copy stays readable on the dark band */
+.band .lead,
+.band-logo .lead{
+  color:rgba(255,255,255,.76)!important;
+}
+
+/* Mobile: slightly lighter outline so it stays elegant */
+@media(max-width:650px){
+  .band .section-title,
+  .band-logo .section-title{
+    -webkit-text-stroke:.75px var(--gold);
+    text-shadow:
+      0 1px 0 rgba(198,155,82,.75),
+      0 2px 8px rgba(0,0,0,.18);
+  }
+}
+/* ===== end dark green section-title contrast fix ===== */
+
