@@ -1,0 +1,30 @@
+[
+  {
+    "id": "example-harvest-2026",
+    "enabled": false,
+    "featured": true,
+    "title": "Harvest Festival 2026",
+    "description": "Join us for a day of thanksgiving, worship and fellowship.",
+    "eventDate": "2026-10-18T08:30:00+05:30",
+    "start": "2026-10-01T06:00:00+05:30",
+    "end": "2026-10-18T23:59:00+05:30",
+    "link": "",
+    "buttonText": "View details",
+    "images": [
+      "assets/images/announcements/harvest-2026.jpg"
+    ]
+  },
+  {
+    "id": "example-youth-fellowship",
+    "enabled": false,
+    "featured": false,
+    "title": "Youth Fellowship",
+    "description": "Young people are invited for fellowship, prayer and time together.",
+    "image": "",
+    "eventDate": "2026-09-13T11:00:00+05:30",
+    "start": "2026-09-07T06:00:00+05:30",
+    "end": "2026-09-13T18:00:00+05:30",
+    "link": "ministries.html",
+    "buttonText": "Youth Fellowship"
+  }
+]
