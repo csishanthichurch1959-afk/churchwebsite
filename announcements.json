@@ -1,14 +1,14 @@
 [
   {
-    "id": "example-harvest-2026",
-    "enabled": false,
+    "id": "harvest-2026",
+    "enabled": true,
     "featured": true,
     "title": "Harvest Festival 2026",
     "description": "Join us for a day of thanksgiving, worship and fellowship.",
     "image": "assets/images/announcements/harvest-2026.jpg",
-    "eventDate": "2026-10-18T08:30:00+05:30",
-    "start": "2026-10-01T06:00:00+05:30",
-    "end": "2026-10-18T23:59:00+05:30",
+    "eventDate": "2026-09-13T08:30:00+05:30",
+    "start": "2026-09-03T06:00:00+05:30",
+    "end": "2026-09-14T23:59:00+05:30",
     "link": "",
     "buttonText": "View details"
   },
