@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#173a2c">
+<title>Home | CSI Shanthi Church</title>
+<meta name="site-build" content="v26-cache-busted">
+<meta name="description" content="CSI Shanthi Church, Wilson Garden, Bengaluru.">
+<link rel="icon" type="image/png" href="assets/images/logo-official-transparent.png">
+<link rel="apple-touch-icon" href="assets/images/logo-official-transparent.png">
+<link rel="stylesheet" href="assets/css/style-v26.css">
+</head>
+<body>
+<!-- CSI Shanthi Church site build: V26 cache-busted -->
+
+
+<header class="site-header">
+  <div class="container">
+    <nav>
+      <a class="nav-logo nav-logo-clean" href="index.html" aria-label="CSI Shanthi Church home">
+        <img src="assets/images/logo-official-transparent.png" alt="CSI Shanthi Church emblem">
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      <div class="nav-links" id="navLinks"><a class="active" href="index.html">Home</a><a class="" href="about.html">About</a><a class="" href="ministries.html">Ministries</a><a class="" href="leadership.html">Leadership & Legacy</a><a class="nav-visit" href="connect.html">Connect</a></div>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="page-hero has-image hero-home history-hero" data-history-slideshow>
+  <div class="history-hero-slides" aria-hidden="true">
+    <div class="history-hero-slide is-active history-current">
+      <img src="assets/images/church-exterior-v26.png" alt="">
+    </div>
+    <div class="history-hero-slide history-shed">
+      <img src="assets/images/church-history-shed-v26.jpg" alt="">
+    </div>
+    <div class="history-hero-slide history-first-rebuilt">
+      <img src="assets/images/church-history-first-rebuilt-v26.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="history-hero-story" aria-live="polite">
+    <span class="history-story-kicker">Our journey</span>
+    <strong id="historyStoryTitle">CSI Shanthi Church today</strong>
+    <span id="historyStoryText">The present church in Wilson Garden.</span>
+    <div class="history-story-dots" aria-label="Church history images">
+      <button type="button" class="history-dot is-active" data-slide="0" aria-label="Show present church"></button>
+      <button type="button" class="history-dot" data-slide="1" aria-label="Show the early shed"></button>
+      <button type="button" class="history-dot" data-slide="2" aria-label="Show the first rebuilt church"></button>
+    </div>
+  </div>
+
+  <div class="container page-hero-content">
+    <div class="eyebrow">A worshipping community since 1959</div>
+    <h1><span class="hero-church-name">CSI Shanthi Church:</span><br><span class="hero-tagline">A place of <span style="color:#f1d49d">peace.</span> A family of faith.</span></h1>
+    <p>Welcome to CSI Shanthi Church in Wilson Garden, Bengaluru — rooted in worship, Scripture, fellowship and generations of faithful service.</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="connect.html#visit">Plan a Visit →</a>
+      <a class="btn btn-outline" style="color:white;border-color:rgba(255,255,255,.28);background:rgba(255,255,255,.07)" href="connect.html#watch">Watch Online</a>
+    </div>
+    <div class="hero-stats">
+      <div><strong>8:30 AM</strong><span>Sunday Divine Service</span></div>
+      <div><strong>Daily</strong><span>Church Open for Prayer · 6:30–7:30 AM · 6:30–7:30 PM</span></div>
+      <div><strong>Holy Communion</strong><span>1st day · 6:30 AM · 1st Sunday · 8:30 AM & 6:30 PM</span></div>
+    </div>
+  </div>
+</section>
+
+
+<section class="home-announcements" id="announcements" data-announcements-home hidden>
+  <div class="container">
+    <div class="announcement-glass" aria-live="polite">
+      <div class="announcement-label">
+        <span class="announcement-pulse" aria-hidden="true"></span>
+        <span>Announcements</span>
+      </div>
+
+      <div class="announcement-stage" data-announcement-stage>
+        <article class="announcement-running-item" data-announcement-item></article>
+      </div>
+
+      <div class="announcement-actions">
+        <div class="announcement-dots" data-announcement-dots aria-label="Announcement selector"></div>
+        <a class="announcement-all-link" href="announcements.html">View all <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="daily-word" id="daily-word">
+  <div class="container daily-word-grid">
+    <div>
+      <div class="daily-icon">☀</div>
+      <div class="eyebrow">Bible passage for the day</div>
+      <h2 class="section-title">Daily Bible Passage</h2>
+      <p class="lead">Take a few quiet moments with Scripture each day. A different passage is featured daily, with readings chosen around hope, comfort, prayer, faith and everyday Christian living.</p>
+      <div class="daily-controls">
+        <div class="daily-date" id="dailyDate">Today</div>
+        <div class="language-toggle" role="group" aria-label="Bible passage language">
+          <button class="language-btn active" id="langEnglish" data-lang="en">English</button>
+          <button class="language-btn" id="langKannada" data-lang="kn">ಕನ್ನಡ</button>
+        </div>
+      </div>
+      <p class="daily-refresh-note">Read the passage in English or ಕನ್ನಡ — whichever feels more natural to you.</p>
+    </div>
+    <article class="daily-passage-card" aria-live="polite">
+      <div class="daily-theme" id="dailyTheme">Today’s Passage</div>
+      <div class="daily-text" id="dailyText">Loading today’s Bible passage…</div>
+      <div class="daily-reference"><strong id="dailyReference"></strong><span>A different Bible passage each day</span></div>
+<div class="daily-source-note" id="dailySourceNote">Kannada Scripture © 2017, 2019 Bridge Connectivity Solutions · CC BY-SA 4.0 · Source: eBible.org</div>
+    </article>
+  </div>
+</section>
+<section>
+  <div class="container split">
+    <div>
+      <div class="eyebrow">Welcome home</div>
+      <h2 class="section-title">Faith passed on.<br>Peace lived out.</h2>
+      <p class="lead">Shanthi Church grew from a small Sunday School and rented car shed into a church family shaped by worship, sacrifice and shared responsibility.</p>
+      <div class="grid-2" style="margin-top:28px">
+        <a class="card link-card" href="about.html"><h3>Our Story</h3><p>Explore the journey from the early Wilson Garden congregation to the present church.</p><span>Read the history →</span></a>
+        <a class="card link-card" href="leadership.html"><h3>Leadership & Legacy</h3><p>Search the historical record of bishops and pastors who served the church.</p><span>Explore the archive →</span></a>
+      </div>
+    </div>
+    <div class="image-panel">
+      <img src="assets/images/altar-enhanced.png" alt="Altar and cross inside CSI Shanthi Church">
+      <div class="quote-card"><p>“From whom the whole body, joined and held together by every joint… builds itself up in love.”</p><small>Ephesians 4:16</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container">
+    <div class="eyebrow">Weekly rhythm</div>
+    <h2 class="section-title">Gather. Pray. Grow.</h2>
+    <p class="lead">A snapshot of regular church life. More fellowship details are available on the Ministries page.</p>
+    <div class="schedule-grid">
+      <article class="service-card"><div><span class="day">Every Sunday</span><h3>Divine Service</h3></div><p>8:30 AM</p></article>
+      <article class="service-card"><div><span class="day">Every Sunday</span><h3>Sunday School</h3></div><p>9:00 AM</p></article>
+      <article class="service-card"><div><span class="day">Every Wednesday</span><h3>Bible Study</h3></div><p>6:30 PM</p></article>
+      <article class="service-card"><div><span class="day">Daily</span><h3>Open for Prayer</h3></div><p>6:30–7:30 AM · 6:30–7:30 PM</p></article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="eyebrow">Explore Shanthi</div>
+    <h2 class="section-title">More than a Sunday service.</h2>
+    <div class="grid-3" style="margin-top:32px">
+      <a class="card link-card" href="ministries.html"><h3>Ministries</h3><p>Sunday School, Youth, Women’s Fellowship, Senior Citizens, Bible Study and mission.</p><span>Find your place →</span></a>
+      <a class="card link-card" href="connect.html#watch"><h3>Watch Online</h3><p>Visit the official YouTube channel and find the latest service highlighted on the website.</p><span>Watch now →</span></a>
+      <a class="card link-card" href="connect.html#offerings"><h3>Offerings</h3><p>A simple, elegant UPI offering option with the church’s static QR code.</p><span>Give online →</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="brand brand-footer" href="index.html">
+          <img class="footer-logo footer-logo-clean" src="assets/images/logo-official-transparent.png" alt="CSI Shanthi Church emblem">
+          <span>CSI Shanthi Church<small style="color:rgba(255,255,255,.5)">Wilson Garden · Bengaluru</small></span>
+        </a>
+        <p style="max-width:430px;margin-top:18px">A legacy of worship, fellowship and service — built across generations and entrusted to the generations to come.</p>
+      </div>
+      <div><h4>Explore</h4><p><a href="about.html">Our Story</a><br><a href="ministries.html">Ministries</a><br><a href="leadership.html">Leadership & Legacy</a><br><a href="announcements.html">Announcements</a></p></div>
+      <div><h4>Connect</h4><p><a href="connect.html#watch">Watch</a><br><a href="connect.html#offerings">Offerings</a><br><a href="connect.html#visit">Plan a Visit</a></p></div>
+    </div>
+    <div class="footer-bottom">© <span data-year></span> CSI Shanthi Church · Wilson Garden, Bengaluru.</div>
+  </div>
+</footer>
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+<script src="assets/js/main-v26.js"></script>
+<script src="assets/js/animations-v26.js"></script>
+<script src="assets/js/history-slideshow-v26.js"></script>
+<script src="assets/js/announcements-v26.js"></script>
+
+
+</body>
+</html>
