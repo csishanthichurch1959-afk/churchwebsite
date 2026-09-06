@@ -206,3 +206,14 @@ If those names are visible on the live domain, the new build is definitely deplo
 - The slideshow still pauses when a slideshow control has keyboard focus and while the browser tab is inactive.
 - Manual slide buttons continue to work and restart the timer.
 - The slideshow startup is now scheduled after the first rendered frame for better reliability.
+
+
+## Site-wide English / Kannada switch
+
+This build adds a persistent English / Kannada language switch using the current repository files as its base.
+
+- The selected language is saved in localStorage and follows the visitor across all pages.
+- Static church content with an approved Kannada translation switches to Kannada.
+- The Daily Bible Passage language follows the site language where possible.
+- Announcements may optionally define `titleKn`, `descriptionKn`, and `buttonTextKn`.
+- If an announcement does not have `titleKn`, the complete announcement remains in English so it never looks partially translated.

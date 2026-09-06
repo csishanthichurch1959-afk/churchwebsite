@@ -1,101 +1,104 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#173a2c">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#173a2c" name="theme-color"/>
 <title>Announcements | CSI Shanthi Church</title>
-<meta name="description" content="Upcoming announcements and events from CSI Shanthi Church, Wilson Garden, Bengaluru.">
-<link rel="icon" type="image/png" href="assets/images/logo-official-transparent.png">
-<link rel="apple-touch-icon" href="assets/images/logo-official-transparent.png">
-<link rel="stylesheet" href="assets/css/style-v26.css">
+<meta content="Upcoming announcements and events from CSI Shanthi Church, Wilson Garden, Bengaluru." name="description"/>
+<link href="assets/images/logo-official-transparent.png" rel="icon" type="image/png"/>
+<link href="assets/images/logo-official-transparent.png" rel="apple-touch-icon"/>
+<link href="assets/css/style-v30.css" rel="stylesheet"/>
+<script>
+(function(){
+  try{
+    var lang=localStorage.getItem('shanthi-site-language');
+    if(lang==='kn'){
+      document.documentElement.lang='kn';
+      document.documentElement.classList.add('site-language-kannada-boot');
+    }
+  }catch(e){}
+})();
+</script>
 </head>
 <body>
-
 <header class="site-header">
-  <div class="container">
-    <nav>
-      <a class="nav-logo nav-logo-clean" href="index.html" aria-label="CSI Shanthi Church home">
-        <img src="assets/images/logo-official-transparent.png" alt="CSI Shanthi Church emblem">
-      </a>
-      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="ministries.html">Ministries</a>
-        <a href="leadership.html">Leadership &amp; Legacy</a>
-        <a class="nav-visit" href="connect.html">Connect</a>
-      </div>
-    </nav>
-  </div>
+<div class="container">
+<nav>
+<a aria-label="CSI Shanthi Church home" class="nav-logo nav-logo-clean" href="index.html">
+<img alt="CSI Shanthi Church emblem" src="assets/images/logo-official-transparent.png"/>
+</a>
+<button aria-label="Open menu" class="menu-btn" id="menuBtn">☰</button>
+<div class="nav-links" id="navLinks">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="ministries.html">Ministries</a>
+<a href="leadership.html">Leadership &amp; Legacy</a>
+<a class="nav-visit" href="connect.html">Connect</a>
+<button aria-label="Switch website to Kannada" class="site-language-switch" id="siteLanguageSwitch" type="button">ಕನ್ನಡ</button></div>
+</nav>
+</div>
 </header>
-
 <main>
 <section class="page-hero logo-hero announcements-hero">
-  <div class="container page-hero-content">
-    <div class="page-hero-grid">
-      <div class="hero-copy">
-        <div class="eyebrow">Church Announcements</div>
-        <h1>What’s happening<br>at Shanthi.</h1>
-        <p>Upcoming events, special services and church-life updates — shown here while they are active.</p>
-      </div>
-      <div class="hero-seal-card" aria-hidden="true">
-        <div class="hero-seal-wrap">
-          <img src="assets/images/logo-official-transparent.png" alt="">
-        </div>
-        <p>Stay connected with the life and fellowship of the church.</p>
-      </div>
-    </div>
-  </div>
+<div class="container page-hero-content">
+<div class="page-hero-grid">
+<div class="hero-copy">
+<div class="eyebrow">Church Announcements</div>
+<h1>What’s happening<br/>at Shanthi.</h1>
+<p>Upcoming events, special services and church-life updates — shown here while they are active.</p>
+</div>
+<div aria-hidden="true" class="hero-seal-card">
+<div class="hero-seal-wrap">
+<img alt="" src="assets/images/logo-official-transparent.png"/>
+</div>
+<p>Stay connected with the life and fellowship of the church.</p>
+</div>
+</div>
+</div>
 </section>
-
-<section class="announcements-page-section" data-announcements-page>
-  <div class="container">
-    <div class="eyebrow">Upcoming &amp; current</div>
-    <h2 class="section-title">Announcements</h2>
-    <p class="lead">Only announcements within their scheduled publishing period are displayed.</p>
-
-    <div class="announcements-loading" data-announcements-loading>
+<section class="announcements-page-section" data-announcements-page="">
+<div class="container">
+<div class="eyebrow">Upcoming &amp; current</div>
+<h2 class="section-title">Announcements</h2>
+<p class="lead">Only announcements within their scheduled publishing period are displayed.</p>
+<div class="announcements-loading" data-announcements-loading="">
       Loading announcements…
     </div>
-
-    <div class="announcements-page-grid" data-announcements-grid></div>
-
-    <div class="announcements-empty" data-announcements-empty hidden>
-      <span class="announcements-empty-icon" aria-hidden="true">✦</span>
-      <h3>No active announcements right now.</h3>
-      <p>Please check back soon for upcoming services, events and fellowship updates.</p>
-      <a class="btn btn-primary" href="index.html">Back to home</a>
-    </div>
-
-    <div class="announcements-error" data-announcements-error hidden>
-      <h3>Announcements could not be loaded.</h3>
-      <p>Please refresh the page in a moment.</p>
-    </div>
-  </div>
+<div class="announcements-page-grid" data-announcements-grid=""></div>
+<div class="announcements-empty" data-announcements-empty="" hidden="">
+<span aria-hidden="true" class="announcements-empty-icon">✦</span>
+<h3>No active announcements right now.</h3>
+<p>Please check back soon for upcoming services, events and fellowship updates.</p>
+<a class="btn btn-primary" href="index.html">Back to home</a>
+</div>
+<div class="announcements-error" data-announcements-error="" hidden="">
+<h3>Announcements could not be loaded.</h3>
+<p>Please refresh the page in a moment.</p>
+</div>
+</div>
 </section>
 </main>
-
 <footer>
-  <div class="container">
-    <div class="footer-grid">
-      <div>
-        <a class="brand brand-footer" href="index.html">
-          <img class="footer-logo footer-logo-clean" src="assets/images/logo-official-transparent.png" alt="CSI Shanthi Church emblem">
-          <span>CSI Shanthi Church<small style="color:rgba(255,255,255,.5)">Wilson Garden · Bengaluru</small></span>
-        </a>
-        <p style="max-width:430px;margin-top:18px">A legacy of worship, fellowship and service — built across generations and entrusted to the generations to come.</p>
-      </div>
-      <div><h4>Explore</h4><p><a href="about.html">Our Story</a><br><a href="ministries.html">Ministries</a><br><a href="leadership.html">Leadership &amp; Legacy</a><br><a href="announcements.html">Announcements</a></p></div>
-      <div><h4>Connect</h4><p><a href="connect.html#watch">Watch</a><br><a href="connect.html#offerings">Offerings</a><br><a href="connect.html#visit">Plan a Visit</a></p></div>
-    </div>
-    <div class="footer-bottom">© <span data-year></span> CSI Shanthi Church · Wilson Garden, Bengaluru.</div>
-  </div>
+<div class="container">
+<div class="footer-grid">
+<div>
+<a class="brand brand-footer" href="index.html">
+<img alt="CSI Shanthi Church emblem" class="footer-logo footer-logo-clean" src="assets/images/logo-official-transparent.png"/>
+<span>CSI Shanthi Church<small style="color:rgba(255,255,255,.5)">Wilson Garden · Bengaluru</small></span>
+</a>
+<p style="max-width:430px;margin-top:18px">A legacy of worship, fellowship and service — built across generations and entrusted to the generations to come.</p>
+</div>
+<div><h4>Explore</h4><p><a href="about.html">Our Story</a><br/><a href="ministries.html">Ministries</a><br/><a href="leadership.html">Leadership &amp; Legacy</a><br/><a href="announcements.html">Announcements</a></p></div>
+<div><h4>Connect</h4><p><a href="connect.html#watch">Watch</a><br/><a href="connect.html#offerings">Offerings</a><br/><a href="connect.html#visit">Plan a Visit</a></p></div>
+</div>
+<div class="footer-bottom">© <span data-year=""></span> CSI Shanthi Church · Wilson Garden, Bengaluru.</div>
+</div>
 </footer>
-
-<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+<button aria-label="Back to top" class="back-to-top" id="backToTop">↑</button>
 <script src="assets/js/main-v26.js"></script>
 <script src="assets/js/animations-v26.js"></script>
-<script src="assets/js/announcements-v28.js"></script>
-</body>
+<script src="assets/js/announcements-v30.js"></script>
+<script src="assets/js/language-v30.js"></script></body>
 </html>
