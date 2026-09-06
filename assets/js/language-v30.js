@@ -3,13 +3,13 @@
 
   const KN = {
   "Home": "ಮುಖಪುಟ",
-  "About": "ನಮ್ಮ ಬಗ್ಗೆ",
+  "Church History": "ಚರ್ಚ್ ಇತಿಹಾಸ",
   "Ministries": "ಸೇವೆಗಳು",
   "Leadership & Legacy": "ನಾಯಕತ್ವ ಮತ್ತು ಪರಂಪರೆ",
   "Connect": "ಸಂಪರ್ಕ",
   "Announcements": "ಪ್ರಕಟಣೆಗಳು",
   "Explore": "ಅನ್ವೇಷಿಸಿ",
-  "Our Story": "ನಮ್ಮ ಕಥೆ",
+  "The Story of Shanthi Church": "ಶಾಂತಿ ಚರ್ಚ್‌ನ ಕಥೆ",
   "Watch": "ವೀಕ್ಷಿಸಿ",
   "Offerings": "ಕಾಣಿಕೆಗಳು",
   "Plan a Visit": "ಭೇಟಿಯನ್ನು ಯೋಜಿಸಿ",
@@ -189,7 +189,7 @@
 };
   const TITLE_KN = {
   "Home | CSI Shanthi Church": "ಮುಖಪುಟ | CSI ಶಾಂತಿ ಚರ್ಚ್",
-  "About | CSI Shanthi Church": "ನಮ್ಮ ಬಗ್ಗೆ | CSI ಶಾಂತಿ ಚರ್ಚ್",
+  "Church History | CSI Shanthi Church": "ಚರ್ಚ್ ಇತಿಹಾಸ | CSI ಶಾಂತಿ ಚರ್ಚ್",
   "Ministries | CSI Shanthi Church": "ಸೇವೆಗಳು | CSI ಶಾಂತಿ ಚರ್ಚ್",
   "Leadership & Legacy | CSI Shanthi Church": "ನಾಯಕತ್ವ ಮತ್ತು ಪರಂಪರೆ | CSI ಶಾಂತಿ ಚರ್ಚ್",
   "Connect | CSI Shanthi Church": "ಸಂಪರ್ಕ | CSI ಶಾಂತಿ ಚರ್ಚ್",

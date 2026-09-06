@@ -217,3 +217,12 @@ This build adds a persistent English / Kannada language switch using the current
 - The Daily Bible Passage language follows the site language where possible.
 - Announcements may optionally define `titleKn`, `descriptionKn`, and `buttonTextKn`.
 - If an announcement does not have `titleKn`, the complete announcement remains in English so it never looks partially translated.
+
+
+## V31 — Church History naming update
+
+- Navigation label changed from `About` to `Church History`.
+- About-page hero heading changed to `The Story of Shanthi Church`.
+- Kannada equivalents:
+  - `Church History` → `ಚರ್ಚ್ ಇತಿಹಾಸ`
+  - `The Story of Shanthi Church` → `ಶಾಂತಿ ಚರ್ಚ್‌ನ ಕಥೆ`
