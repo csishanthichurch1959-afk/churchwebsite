@@ -226,3 +226,13 @@ This build adds a persistent English / Kannada language switch using the current
 - Kannada equivalents:
   - `Church History` → `ಚರ್ಚ್ ಇತಿಹಾಸ`
   - `The Story of Shanthi Church` → `ಶಾಂತಿ ಚರ್ಚ್‌ನ ಕಥೆ`
+
+
+## V33 — automatic latest YouTube video
+
+The Connect page no longer depends on a permanently hard-coded featured video.
+
+- `.github/workflows/update-latest-youtube.yml` runs on pushes to `main`, manually, and every 6 hours.
+- It resolves the official `@csishanthichurch586` channel, reads YouTube's channel feed, and writes the newest upload to `latest-video.json`.
+- `assets/js/latest-video-v33.js` reads that JSON and automatically updates the video thumbnail, title and YouTube link on the Connect page.
+- If the update ever fails, the existing video remains as a safe fallback instead of leaving a broken card.

@@ -2315,3 +2315,14 @@ html.site-language-kannada-boot body{
   }
 }
 /* ===== end V32 home readability polish ===== */
+
+
+/* ===== V33 stronger home hero-stat readability ===== */
+.hero-home .hero-stats .hero-stat-detail{
+  color:#fff!important;
+  font-weight:900!important;
+  font-size:.96rem!important;
+  line-height:1.5;
+  text-shadow:0 1px 5px rgba(0,0,0,.30);
+}
+/* ===== end V33 stronger home hero-stat readability ===== */
