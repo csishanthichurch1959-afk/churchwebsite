@@ -110,7 +110,6 @@ jobs:
           ).strip()
 
           title = entry.findtext(
-              "atom:title",
               default="CSI Shanthi Church on YouTube",
               namespaces=ns
           ).strip()
