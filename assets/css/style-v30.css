@@ -2270,3 +2270,48 @@ html.site-language-kannada-boot body{
   }
 }
 /* ===== end V30 language switch ===== */
+
+
+/* ===== V32 home readability polish ===== */
+
+/* The explanatory lines inside the three home hero stat blocks */
+.hero-home .hero-stats .hero-stat-detail{
+  display:block;
+  margin-top:3px;
+  color:rgba(255,255,255,.94)!important;
+  font-size:.91rem!important;
+  line-height:1.48;
+  font-weight:750!important;
+  letter-spacing:.005em;
+  text-shadow:0 1px 4px rgba(0,0,0,.22);
+}
+
+/* Dark green section headings must remain highly legible */
+.band .dark-band-title,
+.band-logo .dark-band-title{
+  color:#fff!important;
+  -webkit-text-fill-color:#fff!important;
+  -webkit-text-stroke:1px #c69b52!important;
+  paint-order:stroke fill;
+  text-shadow:
+    0 1px 0 rgba(198,155,82,.82),
+    0 3px 14px rgba(0,0,0,.28)!important;
+}
+
+/* Keep the weekly-rhythm supporting copy comfortably readable */
+.band .lead{
+  color:rgba(255,255,255,.84)!important;
+}
+
+@media(max-width:650px){
+  .hero-home .hero-stats .hero-stat-detail{
+    font-size:.86rem!important;
+    line-height:1.52;
+  }
+
+  .band .dark-band-title,
+  .band-logo .dark-band-title{
+    -webkit-text-stroke:.8px #c69b52!important;
+  }
+}
+/* ===== end V32 home readability polish ===== */
