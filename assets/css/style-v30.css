@@ -2326,3 +2326,24 @@ html.site-language-kannada-boot body{
   text-shadow:0 1px 5px rgba(0,0,0,.30);
 }
 /* ===== end V33 stronger home hero-stat readability ===== */
+
+
+/* ===== Hero stat detail readability update ===== */
+.hero-home .hero-stats .hero-stat-detail{
+  color:#fff!important;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important;
+  font-weight:900!important;
+  font-size:1rem!important;
+  line-height:1.45!important;
+  letter-spacing:.01em!important;
+  text-shadow:0 1px 4px rgba(0,0,0,.28)!important;
+}
+
+@media(max-width:650px){
+  .hero-home .hero-stats .hero-stat-detail{
+    font-size:.95rem!important;
+    line-height:1.5!important;
+  }
+}
+/* ===== end hero stat detail readability update ===== */
+
