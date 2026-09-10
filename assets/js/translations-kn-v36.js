@@ -44,6 +44,9 @@ window.SHANTHI_KN_OVERRIDES = {
   "Connect": "ಸಂಪರ್ಕ",
   "Watch": "ವೀಕ್ಷಿಸಿ",
   "Plan a Visit": "ಭೇಟಿಯನ್ನು ಯೋಜಿಸಿ",
-  "A place of peace. A family of faith.": "ಶಾಂತಿಯ ಸ್ಥಳ. ವಿಶ್ವಾಸದ ಕುಟುಂಬ.",
-  "Shepherds through the years.": "ವರ್ಷಗಳ ಪಯಣದಲ್ಲಿ ಕುರುಬರು."
+  "A place of": "ಶಾಂತಿಯ ಸ್ಥಳ.",
+  "peace.": "",
+  "A family of faith.": "ವಿಶ್ವಾಸದ ಕುಟುಂಬ.",
+  "Shepherds through": "ವರ್ಷಗಳ ಪಯಣದಲ್ಲಿ",
+  "the years.": "ಕುರುಬರು."
 };
