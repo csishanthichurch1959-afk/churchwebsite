@@ -236,3 +236,13 @@ The Connect page no longer depends on a permanently hard-coded featured video.
 - It resolves the official `@csishanthichurch586` channel, reads YouTube's channel feed, and writes the newest upload to `latest-video.json`.
 - `assets/js/latest-video-v33.js` reads that JSON and automatically updates the video thumbnail, title and YouTube link on the Connect page.
 - If the update ever fails, the existing video remains as a safe fallback instead of leaving a broken card.
+
+
+## V34 — visual readability and Kannada polish
+- Wider home hero information panel with larger 8:30 AM / Daily / Holy Communion cards.
+- Added Kannada translations for missing compact-card/slideshow text.
+- Altar Scripture moved below the image.
+- Announcement dates made bold and visually distinct.
+- Bishop cards given a soft blue palette.
+- Current Presbyter-in-Charge card highlighted in green with light text.
+- Historical slideshow photos brightened while retaining a readable dark overlay.
