@@ -263,3 +263,10 @@ The Connect page no longer depends on a permanently hard-coded featured video.
 - Multi-image announcements offer `Full screen` and `View all images`.
 - Clicking any announcement image opens a full-screen viewer with previous/next controls, counter, thumbnails, keyboard arrows and Escape-to-close.
 - Single-image announcements also support full-screen viewing.
+
+
+## V38 — Daily Passage uses NET Bible
+- English Daily Bible Passage changed from NIV to NET Bible.
+- Bible cache namespace reset so failed NIV responses are not reused.
+- Front-end script renamed to `main-v38.js` for cache busting.
+- English selector now displays `English (NET)`.

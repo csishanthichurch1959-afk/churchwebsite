@@ -2,7 +2,7 @@
   'use strict';
 
   const KN = {
-  "English (NIV)": "English (NIV)",
+  "English (NET)": "English (NET)",
   "1st Day of the Month · 6:30 AM · 1st Sunday · 8:30 AM & 6:30 PM": "ತಿಂಗಳ 1ನೇ ದಿನ · ಬೆಳಿಗ್ಗೆ 6:30 · 1ನೇ ಭಾನುವಾರ · ಬೆಳಿಗ್ಗೆ 8:30 ಮತ್ತು ಸಂಜೆ 6:30",
   "Where the journey began": "ಪ್ರಯಾಣ ಆರಂಭವಾದ ಸ್ಥಳ",
   "The congregation first gathered in a humble rented shed.": "ಸಭೆಯವರು ಮೊದಲಾಗಿ ಸರಳವಾದ ಬಾಡಿಗೆ ಶೆಡ್‌ನಲ್ಲಿ ಸೇರಿದರು.",
