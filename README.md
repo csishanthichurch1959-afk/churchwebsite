@@ -270,3 +270,12 @@ The Connect page no longer depends on a permanently hard-coded featured video.
 - Bible cache namespace reset so failed NIV responses are not reused.
 - Front-end script renamed to `main-v38.js` for cache busting.
 - English selector now displays `English (NET)`.
+
+
+## V40 — reliable editable Kannada translations
+- The website now loads `assets/js/translations-kn.json` with `cache: no-store` and a unique timestamp every page load.
+- You can edit Kannada wording in that JSON file and refresh the page; no translation-script rename is required.
+- Fixed the translation engine so an intentionally empty translation works. This is required for the styled home phrase `A place of / peace. / A family of faith.`.
+- Exact requested home wording: `ಶಾಂತಿಯ ಸ್ಥಳ. ವಿಶ್ವಾಸದ ಕುಟುಂಬ.`
+- Exact requested leadership wording: `ವರ್ಷಗಳ ಪಯಣದಲ್ಲಿ ಕುರುಬರು.`
+- Added Kannada for the previously English Teens Fellowship and Mission & Outreach descriptions, plus remaining history/leadership explanatory boxes.
