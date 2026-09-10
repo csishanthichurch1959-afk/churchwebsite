@@ -246,3 +246,20 @@ The Connect page no longer depends on a permanently hard-coded featured video.
 - Bishop cards given a soft blue palette.
 - Current Presbyter-in-Charge card highlighted in green with light text.
 - Historical slideshow photos brightened while retaining a readable dark overlay.
+
+
+## V36 — UPI, editable Kannada and NIV
+- Correct UPI ID: `203510944010865@cnrb`.
+- Fresh QR generated as `assets/images/offerings-qr-v36.png`.
+- Kannada wording can now be edited in `assets/js/translations-kn-v36.js` without editing the translation engine.
+- Daily Bible Passage English module changed from KJV to NIV and the cache namespace was reset so old KJV text is not reused.
+- Fresh JS filenames/cache-busting are used for the updated language and Bible scripts.
+
+
+## V37 — announcements restored + image viewer
+- Home announcement bar uses a fresh `announcements-v37.js` cache-busted script.
+- Fixed a Kannada announcement fallback error that could stop announcement rendering.
+- Announcement JSON now loads with a per-request cache-busting query.
+- Multi-image announcements offer `Full screen` and `View all images`.
+- Clicking any announcement image opens a full-screen viewer with previous/next controls, counter, thumbnails, keyboard arrows and Escape-to-close.
+- Single-image announcements also support full-screen viewing.
