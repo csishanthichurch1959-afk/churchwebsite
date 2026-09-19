@@ -1,17 +1,17 @@
 [
   {
-    "id": "harvest-2026",
+    "id": "women's sunday-2026",
     "enabled": true,
     "featured": true,
-    "title": "Harvest Festival 2026",
-    "description": "Join us for a day of thanksgiving, worship and fellowship. Preacher: Allan Samuel Palanna (UTC)",
-    "eventDate": "2026-09-13T08:30:00+05:30",
-    "start": "2026-09-04T06:00:00+05:30",
-    "end": "2026-09-13T23:59:00+05:30",
+    "title": "Women's Sunday 2026",
+    "description": "Worship service and later followed by fellowship organized by Women's wing.",
+    "eventDate": "2026-09-20T08:30:00+05:30",
+    "start": "2026-09-19T06:00:00+05:30",
+    "end": "2026-09-21T23:59:00+05:30",
     "link": "",
     "buttonText": "View details",
     "images": [
-      "assets/images/harvest-2026.jpg"
+      "assets/images/Women's sunday.png"
     ]
   },
   {
