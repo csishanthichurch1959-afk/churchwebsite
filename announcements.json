@@ -17,16 +17,22 @@
     ]
   },
   {
-    "id": "example-youth-fellowship",
-    "enabled": false,
-    "featured": false,
-    "title": "Youth Fellowship",
-    "description": "Young people are invited for fellowship, prayer and time together.",
+    "id": "go or send project",
+    "enabled": true,
+    "featured": true,
+    "title": "Go or Send Project initialization",
+    "description": "A church family extension near Bannerghata area, regular church service will be held every sunday at 8:30 am, Holy Communion service will be held on the third sunday of every month.",
     "image": "",
-    "eventDate": "2026-09-13T11:00:00+05:30",
+    "eventDate": "2026-09-06T11:00:00+05:30",
     "start": "2026-09-07T06:00:00+05:30",
-    "end": "2026-09-13T18:00:00+05:30",
-    "link": "ministries.html",
-    "buttonText": "Youth Fellowship"
+    "end": "2027-09-13T18:00:00+05:30",
+    "link": "",
+    "buttonText": "View details",
+    "images": [
+      "assets/images/goorsend.JPG",
+      "assets/images/goorsend1.JPG",
+      "assets/images/goorsend2.JPG",
+      "assets/images/goorsend3.JPG",
+      "assets/images/goorsend4.JPG",
   }
 ]
