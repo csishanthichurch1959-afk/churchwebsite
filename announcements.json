@@ -1,17 +1,19 @@
 [
   {
-    "id": "women's sunday-2026",
+    "id": "Arpana visit-2026",
     "enabled": true,
     "featured": true,
-    "title": "Women's Sunday 2026",
-    "description": "Worship service and later followed by fellowship organized by Women's wing.",
-    "eventDate": "2026-09-20T08:30:00+05:30",
-    "start": "2026-09-19T06:00:00+05:30",
-    "end": "2026-09-21T23:59:00+05:30",
+    "title": "Arpana Visit 2026",
+    "description": "Church Presbyter-in-church, members of pastorate committee, and members visit the Arpana home to spend valuable time with the kids.",
+    "eventDate": "2026-09-30T08:30:00+05:30",
+    "start": "2026-09-30T06:00:00+05:30",
+    "end": "2027-09-21T23:59:00+05:30",
     "link": "",
     "buttonText": "View details",
     "images": [
-      "assets/images/Women's sunday.png"
+      "assets/images/arpana 1.jpg",
+      "assets/images/arpana 2.jpg",
+      "assets/images/arpana 3.jpg"
     ]
   },
   {
