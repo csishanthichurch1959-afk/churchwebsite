@@ -35,5 +35,21 @@
       "assets/images/goorsend3.JPG",
       "assets/images/goorsend4.JPG"
     ]
+  },
+    {
+    "id": "rainforest falls vbs",
+    "enabled": true,
+    "featured": true,
+    "title": "Winter VBS - October 13, 2026",
+    "description": "A five day program from 9 am - 12 pm for kids aged between 3 - 18 involving experiential scripture learning, praise and worship, and  fun activities.",
+    "image": "",
+    "eventDate": "2026-09-06T11:00:00+05:30",
+    "start": "2026-09-07T06:00:00+05:30",
+    "end": "2027-10-18T18:00:00+05:30",
+    "link": "",
+    "buttonText": "View details",
+    "images": [
+      "assets/images/vbsqr.png"
+    ]
   }
 ]
